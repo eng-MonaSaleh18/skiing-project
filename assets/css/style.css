@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cabin", sans-serif;
+}
+header{
+    background-image: url(./../images/header-bg.png);
+}
+nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px; 
+}
+nav .logo-item{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+nav .logo-item ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+nav .logo-item ul li:nth-child(1){
+    color:  #de4132;
+}
+nav button , .hero button{
+    width: 155px;
+    height: 40px;
+    background-color: #de4132;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hero{
+    width: 545px;
+    height: calc(100vh - 100px);
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+.hero h1{
+    font-size: 57px;
+}
+.hero h1 span{
+    color: #de4132;
+}
+.hero p{
+    padding: 25px 0;
+}
+.hero .btns .btn2{
+    color: #de4132;
+    background-color: white;
+    margin-left: 25px;
+}
+/* *****************SECTION-1*************** */
+#our-partner{
+    padding: 70px 0;
+    background-color: #fef9f9;
+}
+
+#our-partner h1 , #snowbord h1{ /* ****to section 1 and 2***** */
+    width: max-content;
+    font-size: 50px;
+    margin: auto;
+}
+#our-partner h1 span , #snowbord h1 span{     /* ****to section 1 and 2***** */
+    color: #de4132;
+}
+#our-partner .logo-pic{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+    
+}
+ /* *****************SECTION-2**************** */
+
+#snowbord{
+    padding: 100px 0;
+}
+.container{    
+    width: 85vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    margin: auto;
+}
+.container .info{    
+    width: 30%;
+    height: 450px;
+}
+#snowbord .container h1{
+    font-size: 30px;
+    margin: 0;
+    padding: 10px 0;
+}
+#snowbord .container p{
+    width: 90%;
+    padding-bottom: 10px;
+}
+#snowbord .container a{
+    text-decoration: none;
+    color: #de4132;
+    padding-right: 10px;
+}
+/* *******************SECTION-3**************** */
+
+#plane{
+    padding: 100px 0;
+    background-image: url(./../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+#plane h1{
+    font-size: 40px;
+    color: white;
+}
+#plane p{
+    padding: 30px 0 20px 0;
+    color: white;
+}
+#plane button{
+    width: 156px;
+    height: 40px;
+    background-color: white;
+    color: #de4132;
+    border: none;
+    border-radius: 5px;
+}
+
+/* *************SECTION-4************* */
+
+#newsfeed{
+    padding: 100px 0;
+}
+#newsfeed .container{
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    margin: auto;
+}
+#newsfeed .container .info{    
+    width: 35%;
+    height: 450px;
+    
+}
+#newsfeed h1{
+    font-size: 40px;
+    padding-left: 70px;
+}
+
+#newsfeed h1 span{
+    color: #de4132;
+}
+#newsfeed .container .info h1{
+    font-size: 27px;
+    padding-left: 0;
+    width: 85%;
+}
+#newsfeed .container .info img{
+    border-radius: 8px;
+}
+#newsfeed .container .info p{
+    color: rgba(49, 59, 76, 0.8);
+    padding-top: 25px;
+    width: 85%;
+}
+
+#newsfeed .container .info .four .main{
+    width: 100%;
+    display: flex;
+    gap: 12px;
+    padding-bottom: 15px;
+}
+#newsfeed .container .info .four .padding{
+    padding-top: 15px;
+}
+#newsfeed .container .info .four .border{
+    border-bottom: 1px solid rgba(49, 59, 76, 0.2);
+}
+#newsfeed .container .info .four .main .left{
+    width: 25%;
+    border-radius: 8px;
+}
+#newsfeed .container .info .four .main .right{
+    width: 45%;
+    padding-top: 10px;
+}
+#newsfeed .container .info .four .main .right p{
+    padding-top: 0px;
+
+}
+
+#newsfeed .container .info .four .main  img{
+    width: 100%;
+}
+
+/* *******************SECTION-5***************** */
+#track{
+    padding-bottom: 60px ;
+    background-color: #fef9f9;
+}
+#track .container{
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+#track .container .track-left{
+    width: 45%;
+}
+#track .container .track-left .orange{
+    color:orange;
+    padding-bottom: 25px;
+}
+#track .container .track-left h1{
+    font-size: 40px;
+    width: 70%;
+    padding-bottom: 25px;
+}
+#track .container .track-left h1 span{
+    color: #de4132;
+}
+#track .container .track-left .p-width{
+    width: 70%;
+}
+#track .container .track-right{
+    width: 31%;
+}
+#track .container .track-right form{
+    display: flex;
+    flex-direction: column;
+}
+#track .container .track-right form input{
+    width: 430px;
+    height: 50px;
+    margin-top: 15px;
+    border: none;
+    background-color: rgba(49, 59, 76, 0.1);
+    border-radius: 5px;
+}
+input::placeholder{
+    padding-left: 15px;
+}
+#track .container .track-right form button{
+    width: 155px;
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    background-color: #de4132;
+    color: white;
+    margin-top: 15px;
+    font-weight: 400;
+}
+
+/* ********************footer************** */
+footer{
+    padding: 25px 0;
+}
+footer p{
+    text-align: center;
+    color: #313b4c;
+}
